@@ -15,6 +15,14 @@
 		0506CB961E5ED1CA00147395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0506CB941E5ED1CA00147395 /* LaunchScreen.storyboard */; };
 		0506CBA11E5ED1CA00147395 /* TransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506CBA01E5ED1CA00147395 /* TransitionTests.m */; };
 		0506CBAC1E5ED1CA00147395 /* TransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506CBAB1E5ED1CA00147395 /* TransitionUITests.m */; };
+		0506CBC91E5ED1F400147395 /* UINavigationController+XXTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506CBBB1E5ED1F400147395 /* UINavigationController+XXTransition.m */; };
+		0506CBCA1E5ED1F400147395 /* UIViewController+XXTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506CBBD1E5ED1F400147395 /* UIViewController+XXTransition.m */; };
+		0506CBCB1E5ED1F400147395 /* XXAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506CBBF1E5ED1F400147395 /* XXAnimatedTransitioning.m */; };
+		0506CBCC1E5ED1F400147395 /* XXGlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506CBC11E5ED1F400147395 /* XXGlobalConst.m */; };
+		0506CBCD1E5ED1F400147395 /* XXInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506CBC31E5ED1F400147395 /* XXInteractiveTransition.m */; };
+		0506CBCE1E5ED1F400147395 /* XXTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506CBC61E5ED1F400147395 /* XXTransition.m */; };
+		0506CBCF1E5ED1F400147395 /* XXTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506CBC81E5ED1F400147395 /* XXTransitionManager.m */; };
+		0506CBD21E5ED32F00147395 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506CBD11E5ED32F00147395 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,23 @@
 		0506CBA71E5ED1CA00147395 /* TransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0506CBAB1E5ED1CA00147395 /* TransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionUITests.m; sourceTree = "<group>"; };
 		0506CBAD1E5ED1CA00147395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0506CBBA1E5ED1F400147395 /* UINavigationController+XXTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+XXTransition.h"; sourceTree = "<group>"; };
+		0506CBBB1E5ED1F400147395 /* UINavigationController+XXTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XXTransition.m"; sourceTree = "<group>"; };
+		0506CBBC1E5ED1F400147395 /* UIViewController+XXTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XXTransition.h"; sourceTree = "<group>"; };
+		0506CBBD1E5ED1F400147395 /* UIViewController+XXTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XXTransition.m"; sourceTree = "<group>"; };
+		0506CBBE1E5ED1F400147395 /* XXAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXAnimatedTransitioning.h; sourceTree = "<group>"; };
+		0506CBBF1E5ED1F400147395 /* XXAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXAnimatedTransitioning.m; sourceTree = "<group>"; };
+		0506CBC01E5ED1F400147395 /* XXGlobalConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXGlobalConst.h; sourceTree = "<group>"; };
+		0506CBC11E5ED1F400147395 /* XXGlobalConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXGlobalConst.m; sourceTree = "<group>"; };
+		0506CBC21E5ED1F400147395 /* XXInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXInteractiveTransition.h; sourceTree = "<group>"; };
+		0506CBC31E5ED1F400147395 /* XXInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXInteractiveTransition.m; sourceTree = "<group>"; };
+		0506CBC41E5ED1F400147395 /* XXMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXMacro.h; sourceTree = "<group>"; };
+		0506CBC51E5ED1F400147395 /* XXTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTransition.h; sourceTree = "<group>"; };
+		0506CBC61E5ED1F400147395 /* XXTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTransition.m; sourceTree = "<group>"; };
+		0506CBC71E5ED1F400147395 /* XXTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTransitionManager.h; sourceTree = "<group>"; };
+		0506CBC81E5ED1F400147395 /* XXTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTransitionManager.m; sourceTree = "<group>"; };
+		0506CBD01E5ED32F00147395 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0506CBD11E5ED32F00147395 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +126,13 @@
 		0506CB851E5ED1CA00147395 /* Transition */ = {
 			isa = PBXGroup;
 			children = (
+				0506CBB91E5ED1F400147395 /* XXTransition */,
 				0506CB891E5ED1CA00147395 /* AppDelegate.h */,
 				0506CB8A1E5ED1CA00147395 /* AppDelegate.m */,
 				0506CB8C1E5ED1CA00147395 /* ViewController.h */,
 				0506CB8D1E5ED1CA00147395 /* ViewController.m */,
+				0506CBD01E5ED32F00147395 /* SecondViewController.h */,
+				0506CBD11E5ED32F00147395 /* SecondViewController.m */,
 				0506CB8F1E5ED1CA00147395 /* Main.storyboard */,
 				0506CB921E5ED1CA00147395 /* Assets.xcassets */,
 				0506CB941E5ED1CA00147395 /* LaunchScreen.storyboard */,
@@ -138,6 +166,28 @@
 				0506CBAD1E5ED1CA00147395 /* Info.plist */,
 			);
 			path = TransitionUITests;
+			sourceTree = "<group>";
+		};
+		0506CBB91E5ED1F400147395 /* XXTransition */ = {
+			isa = PBXGroup;
+			children = (
+				0506CBBA1E5ED1F400147395 /* UINavigationController+XXTransition.h */,
+				0506CBBB1E5ED1F400147395 /* UINavigationController+XXTransition.m */,
+				0506CBBC1E5ED1F400147395 /* UIViewController+XXTransition.h */,
+				0506CBBD1E5ED1F400147395 /* UIViewController+XXTransition.m */,
+				0506CBBE1E5ED1F400147395 /* XXAnimatedTransitioning.h */,
+				0506CBBF1E5ED1F400147395 /* XXAnimatedTransitioning.m */,
+				0506CBC01E5ED1F400147395 /* XXGlobalConst.h */,
+				0506CBC11E5ED1F400147395 /* XXGlobalConst.m */,
+				0506CBC21E5ED1F400147395 /* XXInteractiveTransition.h */,
+				0506CBC31E5ED1F400147395 /* XXInteractiveTransition.m */,
+				0506CBC41E5ED1F400147395 /* XXMacro.h */,
+				0506CBC51E5ED1F400147395 /* XXTransition.h */,
+				0506CBC61E5ED1F400147395 /* XXTransition.m */,
+				0506CBC71E5ED1F400147395 /* XXTransitionManager.h */,
+				0506CBC81E5ED1F400147395 /* XXTransitionManager.m */,
+			);
+			path = XXTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +323,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0506CBC91E5ED1F400147395 /* UINavigationController+XXTransition.m in Sources */,
 				0506CB8E1E5ED1CA00147395 /* ViewController.m in Sources */,
+				0506CBCA1E5ED1F400147395 /* UIViewController+XXTransition.m in Sources */,
 				0506CB8B1E5ED1CA00147395 /* AppDelegate.m in Sources */,
+				0506CBCB1E5ED1F400147395 /* XXAnimatedTransitioning.m in Sources */,
+				0506CBCD1E5ED1F400147395 /* XXInteractiveTransition.m in Sources */,
 				0506CB881E5ED1CA00147395 /* main.m in Sources */,
+				0506CBCC1E5ED1F400147395 /* XXGlobalConst.m in Sources */,
+				0506CBD21E5ED32F00147395 /* SecondViewController.m in Sources */,
+				0506CBCF1E5ED1F400147395 /* XXTransitionManager.m in Sources */,
+				0506CBCE1E5ED1F400147395 /* XXTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
